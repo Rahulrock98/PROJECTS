@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #959191;
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  /* font-weight: <weight>; */
+  /* font-style: normal; */
+}
+nav{
+    background-color: #666;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid grey;
+    position: sticky;
+    top: 0;
+    /* margin: 0 0 100px 0; */
+}
+nav h2{
+    margin: 20px 0 0 20px;
+}
+nav button{
+    padding: 18px;
+    border: none;
+    border-radius: 28px;
+    font-weight: 600;
+    margin:12px 20px 10px 0 ;
+   color: #7d0cd4;
+    
+}
+
+.container {
+    /* max-width: 60vw; */
+    /* margin: 20px auto; */
+    padding: 50px;
+    /* background-color: #fff; */
+    /* border-radius: 8px; */
+    /* box-shadow: 0 0 10px rgba(0,0,0,0.1); */
+}
+.search{
+    border: 2px solid grey;
+    margin: 12px 0 20px 0;
+    padding:20px 12px 0  22px;
+    border-radius: 18px;
+    position: sticky;
+    top: 90px;
+}
+.search input{
+    font-weight: 600;
+    padding: 18px;
+    width: 20vw;
+    border: none;
+    border-radius: 18px;
+    margin: 0 5px 20px 0 ;
+}
+.search button{
+    padding: 18px;
+    font-weight: 600;
+    color: white;
+    background-color: #7d0cd4;
+    border: none;
+    border-radius: 18px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.cards-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 80px;
+}
+
+.card {
+    background-color: #e3dada;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+}
+
+.card h2 {
+    margin-top: 0;
+    font-size: 18px;
+    color: #333;
+}
+
+.card p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #666;
+}
+
