@@ -69,3 +69,8 @@ body{
     padding: 0 30px;
     margin-top: 50px;
 }
+.error{
+    text-align:center;
+    display: none;
+    margin-top: 40px;
+}
