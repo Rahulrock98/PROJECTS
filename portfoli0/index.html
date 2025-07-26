@@ -1,0 +1,288 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rahul Kumar | Developer</title>  
+    <link rel="stylesheet" href="style.css">    
+</head>
+
+
+<body>
+
+    <header>
+        <nav class="nav">
+            <a href="#home" class="logo">Rahul<span>.</span></a>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#gallery" class="nav-link">Gallery</a></li>
+                <li><a href="#certificate" class="nav-link">Certificate</a></li>
+                <li><a href="#blog" class="nav-link">Blog</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <button class="nav-toggle" aria-label="Menu"><i class="fas fa-bars"></i></button>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="container">
+            <div class="hero-content">
+                <h1>Hi, I'm Rahul Kumar<span class="logo">.</span></h1>
+                <p class="tagline">A Creative Developer Building Beautiful & Functional Web Experiences.</p>
+                <a href="RAHUL KUMAR-resume.pdf" class="btn btn-primary" download>Download Resume</a>
+                <a href="#contact" class="btn btn-secondary">Contact Me</a>
+            </div>
+            <div class="hero-image-container">
+                <img src="dp-rahul half.jpg" alt="Rahul Kumar">
+            </div>
+        </section>
+
+        <section id="about" class="container">
+            <h2 class="section-title">About <span>Me</span></h2>
+            <p class="section-subtitle">
+                I am a dedicated developer with a passion for creating intuitive, dynamic user experiences. With a strong foundation in front-end technologies and a keen eye for design, I specialize in turning ideas into reality. My goal is to continuously learn, grow, and contribute to impactful projects.
+            </p>
+            </section>
+
+        <section id="portfolio" class="container">
+            <h2 class="section-title">My <span>Portfolio</span></h2>
+            <div class="portfolio-grid">
+                <div class="portfolio-card">
+                    <img src="https://via.placeholder.com/400x280/1E90FF/FFFFFF?text=Project+One" alt="Project 1">
+                    <div class="portfolio-info">
+                        <h3>Dashboard UI</h3>
+                        <p>Data visualization and analytics platform.</p>
+                    </div>
+                </div>
+                <div class="portfolio-card">
+                    <img src="https://via.placeholder.com/400x280/20B2AA/FFFFFF?text=Project+Two" alt="Project 2">
+                    <div class="portfolio-info">
+                        <h3>Mobile App Design</h3>
+                        <p>Sleek UI for a modern travel application.</p>
+                    </div>
+                </div>
+                <div class="portfolio-card">
+                    <img src="https://via.placeholder.com/400x280/32CD32/FFFFFF?text=Project+Three" alt="Project 3">
+                    <div class="portfolio-info">
+                        <h3>SaaS Landing Page</h3>
+                        <p>A high-converting marketing page.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="container">
+            <h2 class="section-title">Technical <span>Skills</span></h2>
+            <div class="skills-grid">
+                <div class="skill-bar">
+                    <div class="skill-info"><span>HTML5 & CSS3</span><span>95%</span></div>
+                    <div class="progress-container"><div class="progress-bar" data-width="95%"></div></div>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-info"><span>JavaScript (ES6+)</span><span>90%</span></div>
+                    <div class="progress-container"><div class="progress-bar" data-width="90%"></div></div>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-info"><span>React & Node.js</span><span>85%</span></div>
+                    <div class="progress-container"><div class="progress-bar" data-width="85%"></div></div>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-info"><span>UI/UX Design (Figma)</span><span>80%</span></div>
+                    <div class="progress-container"><div class="progress-bar" data-width="80%"></div></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="gallery" class="container">
+            <h2 class="section-title">Gallery</h2>
+            <div class="gallery-gird">
+                <div class="gallery-bar">
+                    
+ <div class="gallery-grid" id="gallery">
+    <!-- Visible images -->
+    <img src="dp-rahul half.jpg" class="gallery-item" alt="Photo 1">
+    <img src="C:\Users\Rahul\Desktop\portfolio\photo\image-3.jpgx" class="gallery-item" alt="Photo 2">
+    <img src="https://via.placeholder.com/300x200?text=Photo+3" class="gallery-item" alt="Photo 3">
+    <img src="https://via.placeholder.com/300x200?text=Photo+4" class="gallery-item" alt="Photo 4">
+
+    <!-- Hidden images to be revealed on button click -->
+    <img src="https://via.placeholder.com/300x200?text=Photo+5" class="gallery-item hidden" alt="Photo 5">
+    <img src="https://via.placeholder.com/300x200?text=Photo+6" class="gallery-item hidden" alt="Photo 6">
+    <img src="https://via.placeholder.com/300x200?text=Photo+7" class="gallery-item hidden" alt="Photo 7">
+    <img src="https://via.placeholder.com/300x200?text=Photo+8" class="gallery-item hidden" alt="Photo 8">
+  </div>
+
+  <!-- VIEW MORE BUTTON -->
+  <div class="load-more-container">
+    <button id="loadMoreBtn" class="btn">View More</button>
+  </div>
+
+                </div>
+            </div>
+
+        </section>
+
+
+    <!-- Certificate Section -->
+    <section id="certificate" class="container">
+        <h2 class="section-title">Certificates & <span>Awards</span></h2>
+        <div class="certificate-grid">
+            <div class="certificate-card">
+                <img src="https://via.placeholder.com/120x120?text=Certificate+1" alt="Certificate 1">
+                <div>
+                    <h3>Front-End Developer Certificate</h3>
+                    <p>Issued by XYZ Academy, 2024</p>
+                </div>
+            </div>
+            <div class="certificate-card">
+                <img src="https://via.placeholder.com/120x120?text=Award" alt="Award">
+                <div>
+                    <h3>Best UI Designer Award</h3>
+                    <p>Web Design Fest, 2023</p>
+                </div>
+            </div>
+            <!-- Add more certificates/awards as needed -->
+        </div>
+    </section>
+
+ <!-- Blog/Article Section -->
+    <section id="blog" class="container">
+        <h2 class="section-title">Blog & <span>Articles</span></h2>
+        <div class="blog-grid">
+            <div class="blog-card">
+                <h3><a href="#" target="_blank">How to Build Responsive Web Apps</a></h3>
+                <p>Tips and tricks for creating responsive, mobile-friendly web applications using modern CSS and JavaScript.</p>
+                <span class="blog-date">July 2025</span>
+            </div>
+            <div class="blog-card">
+                <h3><a href="#" target="_blank">UI/UX Trends in 2025</a></h3>
+                <p>A look at the latest trends in user interface and user experience design for web developers.</p>
+                <span class="blog-date">June 2025</span>
+            </div>
+            <!-- Add more blog/article cards as needed -->
+        </div>
+    </section>
+
+        
+        <section id="contact" class="container">
+            <h2 class="section-title">Contact <span>Me</span></h2>
+            <div class="contact-grid">
+                <form id="contact-form" class="contact-form">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="message" rows="6" placeholder="Your Message" required></textarea>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+                <div class="contact-info">
+                    <p><i class="fas fa-map-marker-alt"></i> Arwal,Bihar, India</p>
+                    <p><i class="fas fa-envelope"></i> cyberkingrahul1@email.com</p>
+                    <p><i class="fas fa-phone"></i> +91 620088483X</p>
+                    <div class="social-links-contact">
+                        <a href="https://www.facebook.com/rahul.479291" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/the_rahul.exe/" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/rahul-kumar-48a85b204/" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://github.com/Rahulrock98" aria-label="Github"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Rahul Kumar. All Rights Reserved.</p>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Mobile navigation toggle
+            const navToggle = document.querySelector('.nav-toggle');
+            const navMenu = document.querySelector('.nav-menu');
+            navToggle.addEventListener('click', () => {
+                navMenu.classList.toggle('active');
+            });
+
+            // Close mobile menu when a link is clicked
+            document.querySelectorAll('.nav-link').forEach(link => {
+                link.addEventListener('click', () => {
+                    if (navMenu.classList.contains('active')) {
+                        navMenu.classList.remove('active');
+                    }
+                });
+            });
+
+            // Active nav link on scroll
+            const sections = document.querySelectorAll('section');
+            const navLinks = document.querySelectorAll('.nav-link');
+            
+            const observerOptions = {
+                root: null,
+                rootMargin: '0px',
+                threshold: 0.5
+            };
+
+            const observer = new IntersectionObserver((entries, observer) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        navLinks.forEach(link => {
+                            link.classList.remove('active');
+                            if (link.getAttribute('href').substring(1) === entry.target.id) {
+                                link.classList.add('active');
+                            }
+                        });
+                    }
+                });
+            }, observerOptions);
+
+            sections.forEach(section => {
+                observer.observe(section);
+            });
+
+            // Animate skill bars on scroll
+            const skillsSection = document.querySelector('#skills');
+            const progressBars = document.querySelectorAll('.progress-bar');
+
+            const skillsObserver = new IntersectionObserver((entries, observer) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        progressBars.forEach(bar => {
+                            bar.style.width = bar.getAttribute('data-width') + '%';
+                        });
+                        observer.unobserve(entry.target);
+                    }
+                });
+            }, { threshold: 0.2 });
+
+            if (skillsSection) {
+                skillsObserver.observe(skillsSection);
+            }
+
+            const loadMoreBtn = document.getElementById("loadMoreBtn");
+    const hiddenImages = document.querySelectorAll(".gallery-item.hidden");
+
+    loadMoreBtn.addEventListener("click", () => {
+      hiddenImages.forEach((img, index) => {
+        setTimeout(() => {
+          img.classList.remove("hidden");
+          img.classList.add("fade-in");
+        }, index * 150); // delay each image for animation
+      });
+
+      // Hide the button after all images are shown
+      loadMoreBtn.style.display = "none";
+    });
+
+            // Contact form submission
+            const contactForm = document.getElementById('contact-form');
+            contactForm.addEventListener('submit', function(e) {
+                e.preventDefault();
+                alert('Thank you for your message! I will get back to you soon.');
+                contactForm.reset();
+            });
+        });
+    </script>
+</body>
+</html>
